@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            text-align: center;
+        }
+        .kotak {
+            width: 25px;
+            height: 25px;
+            margin: 10px auto;
+        }
+        .merah {
+            background-color: red;
+        }
+        .hijau {
+            background-color: green;
+        }
+        .biru {
+            background-color: blue;
+        }
+        .biru-muda {
+            background-color: lightblue;
+        }
+        table {
+            margin: 20px auto;
+            
+        }
+        table td {border: 1px solid black;}
+        td {padding: 10px 25px; }
+        .white {
+            background-color: #ffffff;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Bermain Warna</h1>
+    <button type="button" id="tUbahWarna">Ubah Warna</button>
+
+    <br><br>
+
+   
+    <div class="kotak merah"></div>
+    <input type="range" name="sMerah" min="0" max="255">
+    <div class="kotak hijau"></div>
+    <input type="range" name="sHijau" min="0" max="255">
+
+    <div class="kotak biru"></div>
+    <input type="range" name="sBiru" min="0" max="255">
+    <br><br>
+
+    <table>
+        <tr>
+            <td>red</td><td>blue</td><td>green</td>
+        </tr>
+        <tr>
+            <td>yellow</td><td>brown</td><td>pink</td>
+        </tr>
+        <tr>
+            <td>aqua</td><td>magenta</td><td>orange</td>
+        </tr>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
